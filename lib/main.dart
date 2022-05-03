@@ -61,7 +61,7 @@ class _SplashAppInternalState extends State<SplashAppInternal> with TickerProvid
                 child: Align(
                   alignment: Alignment.topCenter,
                   child: Lottie.asset(
-                    "assets/lottie/banner.json",
+                    "assets/lottie/bell.json",
                     fit: BoxFit.contain,
                     controller: _lottieAnimCtrl,
                     onLoaded: (c) {
